@@ -28,8 +28,8 @@ MIN_OPEN_INTEREST = 100
 # Email configuration
 SMTP_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")
 SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
-SMTP_USERNAME = os.getenv("SMTP_USERNAME", "dkopp@frontlinestrategies.co")
-SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "D4n13lk0pp23!")
+SMTP_USERNAME = os.getenv("SMTP_USERNAME", "thedanielkopp@gmail.com")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "lmed tzkp hbbg hoen")
 EMAIL_FROM = os.getenv("EMAIL_FROM", SMTP_USERNAME)
 EMAIL_TO = [addr.strip() for addr in os.getenv("EMAIL_TO", EMAIL_FROM).split(",")]
 
