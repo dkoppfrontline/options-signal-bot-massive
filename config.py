@@ -6,11 +6,11 @@ Edit the values in this file before running.
 import os
 
 # Massive.com API configuration
-MASSIVE_API_KEY = os.getenv("MASSIVE_API_KEY", "PUT_YOUR_MASSIVE_API_KEY_HERE")
+MASSIVE_API_KEY = os.getenv("MASSIVE_API_KEY", "7uOSedbH7wbqyivzocKfjhKX_cosJ_eC")
 MASSIVE_BASE_URL = "https://api.massive.com"
 
 # Tickers to scan
-TICKERS = ["AAPL", "NVDA", "AMZN"]
+TICKERS = ["AAPL", "NVDA", "AMZN", "META", "MSFT", "TSLA", "GOOG", "WDC"]
 
 # Technical indicator parameters
 LOOKBACK_DAYS = 90  # how many calendar days of history to pull
